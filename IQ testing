@@ -1,0 +1,6 @@
+import random
+
+choices = ['180 愛因斯坦🤡', '160 天才🎉', '120 聰明🌟', '100 普通💯']
+picked = random.choice(choices)
+print(f"今天IQ：{picked}")
+print("congratulations")
