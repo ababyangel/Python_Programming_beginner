@@ -1,0 +1,20 @@
+variableA = 99939999999999999999999999999999912345678901234567890
+variableB = 99993999999999999999999999999999912345678901234567890
+
+# 乘法結果
+product = variableA * variableB
+
+# 加法結果
+summation = variableA + variableB
+
+# 印出乘法和加法結果
+print(f"乘法結果：{product}")
+print(f"加法結果：{summation}")
+
+# 1. 如果想印兩個結果合成一個串列
+result_list = [product, summation]
+print(f"結果串列：{result_list}")
+
+# 2. 如果想把乘法結果和加法結果相加（純數字加法）
+total = product + summation
+print(f"乘法結果 + 加法結果 = {total}")
