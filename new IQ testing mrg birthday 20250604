@@ -1,0 +1,43 @@
+# Welcome to the IQ testing program made in Python
+# Inventor: EricYen   Date: 6/4
+
+import random  # This is an IQ testing program
+
+IQ = random.randint(100, 200)
+
+print(f"Your IQ is: {IQ}")
+
+if 100 <= IQ < 105:
+    print("🧠 普通人 level 1")
+elif 105 <= IQ < 110:
+    print("🧠 稍微聰明 level 22")
+elif 110 <= IQ < 115:
+    print("🤯 聰明 level 36")
+elif 115 <= IQ < 120:
+    print("🤯 還不錯 level 38")
+elif 120 <= IQ < 125:
+    print("🤯 十分聰明 level 40")
+elif 125 <= IQ < 130:
+    print("🤯 非常聰明 level 58")
+elif 130 <= IQ < 135:
+    print("🤯 超越平均 level 60")
+elif 135 <= IQ < 140:
+    print("🤯 超級聰明 level 66")
+elif 140 <= IQ < 145:
+    print("🤯 領先群倫 level 77")
+elif 145 <= IQ < 150:
+    print("🤯 冰雪聰明 level 88")
+elif 150 <= IQ < 155:
+    print("🤯 專家等級 level 100!")
+elif 155 <= IQ < 160:
+    print("🤯 大師等級 level 999!!!")
+elif 160 <= IQ < 165:
+    print("🤯 天才 level 6666!!!!!")
+elif 165 <= IQ < 170:
+    print("🤯 霍金等級 level 9999999!!!!!!!!!")
+elif 170 <= IQ < 175:
+    print("🤯 黑暗之力! level 100000000")
+elif 175 <= IQ < 180:
+    print("🤯 全腦開發! level 74540887454088")
+else:  # 180 ~ 200
+    print("👑 智商爆表 level ??????????")
