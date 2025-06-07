@@ -1,0 +1,13 @@
+import time
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+tz = ZoneInfo('Asia/Taipei')
+
+try:
+    while True:
+        now = datetime.now(tz)
+        print("\r現在時間是: " + now.strftime("%Y-%m-%d %H:%M:%S"), end="")
+        time.sleep(1)
+except KeyboardInterrupt:
+    print("\n程式結束，掰掰～")
