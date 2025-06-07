@@ -1,0 +1,4 @@
+import random
+text=("今天要玩什麼遊戲?")
+choice=(" roblox."," minecraft."," 貓咪大戰爭."," 絕地求生."," poki."," crazygame."," 忍者必須死.")
+print(text+random.choice(choice))
