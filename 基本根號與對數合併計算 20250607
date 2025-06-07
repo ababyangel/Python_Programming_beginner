@@ -1,0 +1,4 @@
+import math
+
+result = math.sqrt(math.pi * 16) / math.log2(32768)
+print(result)
