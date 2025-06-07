@@ -1,0 +1,26 @@
+import random
+
+# 遊戲選項
+games = ["roblox", "minecraft", "貓咪大戰爭", "絕地求生", "poki", "crazygame", "忍者必須死"]
+
+# 隨機選一個遊戲
+chosen_game = random.choice(games)
+
+# 印出今天要玩什麼
+print("今天要玩什麼遊戲? " + chosen_game)
+
+# 根據選擇的遊戲來評論
+if chosen_game == "roblox":
+    print("roblox 是一個廢物遊戲")
+elif chosen_game == "minecraft":
+    print("minecraft 是3歲在玩的幼稚遊戲")
+elif chosen_game == "poki":
+    print("poki的遊戲都很無聊")
+elif chosen_game == "貓咪大戰爭":
+    print("貓咪大戰爭最好玩了！YES！")
+elif chosen_game == "絕地求生":
+    print("槍戰不好玩")
+elif chosen_game == "crazygame":
+    print("crazygame 太 crazy 了")
+elif chosen_game == "忍者必須死":
+    print("忍者必須死關卡太多不好玩")
