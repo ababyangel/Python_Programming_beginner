@@ -1,0 +1,4 @@
+import random
+
+dice = random.randint(1, 6)
+print("你擲出了骰子，點數是:", dice)
