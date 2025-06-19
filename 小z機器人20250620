@@ -1,0 +1,11 @@
+def greet(fname):
+    print("小z：" + fname + "你好，你的智商180。")
+    return fname
+
+def reply(fname):
+    user_reply = input("請輸入你的回覆：")
+    print(fname + "：" + user_reply)
+    print("小z：再見 " + fname + "，祝你有個美好的一天！")
+name = input("請輸入你的名字：")
+name = greet(name)
+reply(name)
