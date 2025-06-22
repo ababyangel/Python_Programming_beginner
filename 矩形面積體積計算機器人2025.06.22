@@ -1,0 +1,12 @@
+print("歡迎來到矩形面積體積計算機器人")
+w=float(input("請輸入長方形寬 w : "))
+l=float(input("請輸入長方形長 l : "))
+print("長方形面積= ",w*l)
+a=input("是否要繼續算體積?輸入y或n:" )
+
+if a=="y":
+    print("那就繼續計算體積")
+    h=float(input("請輸入長方形的高 h :"))
+    print("長方形體積=",w*l*h)
+else:
+    print("那就再見了,掰掰～")
