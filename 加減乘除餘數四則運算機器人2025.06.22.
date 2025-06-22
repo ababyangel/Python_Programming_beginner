@@ -1,0 +1,12 @@
+from pprint import pprint
+print("歡迎來到加減乘除餘數四則運算機器人")
+a=(float(input("請輸入任意實數a: ")))
+b=(float(input("請輸入任意實數a: ")))
+data={
+    'a乘b的結果':{print:(a*b)},
+    'a除b的結果':{print:(a/b)},
+    'a除b的餘數':{print:(a%b)},
+    'a加b的結果':{print:(a+b)},
+    'a減b的結果':{print:(a-b)}
+}
+pprint(data)
