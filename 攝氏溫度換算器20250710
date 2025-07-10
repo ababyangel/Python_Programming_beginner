@@ -1,0 +1,9 @@
+'''
+
+  歡迎來到" 攝氏溫度換算器 "只要輸入攝氏溫度,便會幫您換算出華氏溫度.
+  Welcome to "Celsius Temperature Converter".Just enter the Celsius temperature 
+  and it will convert it to Fahrenheit.
+
+'''
+celsius=float(input("請輸入您想換算的攝氏溫度: "))
+print("華氏溫度為",(celsius*9/5+32),"度")
