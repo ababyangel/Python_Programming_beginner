@@ -1,0 +1,22 @@
+'''
+
+歡迎來到" 年月日顯示機 ",只要輸入年月日,便會顯示出今天的日期.
+
+'''
+import time
+years =int(input("請輸入西元年: "))
+month =int(input("請輸入現在幾月: "))
+day   =int(input("請輸入今天幾號: "))
+print("計算中...0%")
+time.sleep(0.01)
+print("1%")
+time.sleep(0.36)
+print("37%")
+time.sleep(0.5)
+print("57%..加載中請稍等....")
+time.sleep(1)
+print("83%")
+time.sleep(0.2)
+print("100%")
+time.sleep(1)
+print(f"今天日期是{years}/{month}/{day}")
