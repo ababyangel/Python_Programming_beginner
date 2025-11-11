@@ -1,0 +1,14 @@
+import math
+import time
+r=float(input("請輸入圓半徑:"))
+area=r*r*(math.pi)
+print("圓面積為:",area)
+time.sleep(2)
+Ans=(input("是否要繼續計算圓周長-y或n-:"))
+S=r*2*math.pi
+if Ans=='y':
+    print("圓周長為:",S)
+elif Ans=='n':
+    print("掰掰")
+else:
+    print("懶得理你")
